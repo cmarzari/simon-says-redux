@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import bg from "../images/bg.jpg"
 import posed, { PoseGroup } from 'react-pose';
+import '../styles/simon.css'
+import {
+	Button
+} from 'reactstrap';
 
 
 const bgStyle = {
@@ -8,6 +12,8 @@ const bgStyle = {
 	backgroundImage: `url(${bg})`,
 
 }
+
+const colors =["blue","red","green", "yellow"];
 
 
 
@@ -27,20 +33,28 @@ export class Home extends Component {
 
 	render() {
 		return (
-			<div>
-				<div className="home-flex-row one" style={bgStyle}>
-					<div  className="box1"> 
-					<p>Cafe squatters is a group of caffine addicts programmer with endless awesome ideas.  </p>
-					<p>The goal of us is create as many as possible useless website to entertain you</p>
+			<div className="center simon-home">
+				<h2>Simon says</h2>
+				<div className="flex-row buttons">
+					<Button>Start</Button>
+					<p>easy</p>
+					<p>medium</p>
+					<p>hard</p>
+				</div>
+				<div className="box4 center">
+					<div className="flex-row">
+						<div className="box green">
+						</div>
+						<div className="box red">
+						</div>
 					</div>
-
+					<div className="flex-row">
+						<div className="box yellow">
+						</div>
+						<div className="box blue">
+						</div>
+					</div>
 				</div>
-				<div className="home-flex-row two" >
-
-
-					
-				</div>
-
 			</div>
 		)
 	}

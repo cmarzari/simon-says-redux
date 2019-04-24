@@ -56,26 +56,10 @@ export default class Navigation extends Component {
 		return (
 			<div>
 				<Navbar color="white" light expand="md" >
-					<NavbarBrand href="/" className="mr-auto"><span className="logo1">Cafe</span><span className="logo2">SQUATTERS</span></NavbarBrand>
+					<NavbarBrand href="/" className="mr-auto"><span className="logo1">Redux</span><span className="logo2">Simon Says</span></NavbarBrand>
 					
-					<NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-					<Collapse isOpen={!this.state.collapsed} navbar>
-						<Nav className="ml-auto" expand="md" navbar>
-							<NavItem>
-								<NavLink href="/about "><Box className="box">ABOUT</Box></NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href=""><Box className="box">BLOGS</Box></NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href="/project"><Box className="box">PROJECTS</Box></NavLink>
-							</NavItem>
-							{/* <NavItem>
-								<NavLink href=""><Box className="box">CONTACT</Box></NavLink>
-							</NavItem> */}
-
-						</Nav>
-					</Collapse>
+				
+					
 				</Navbar>
 			</div>
 		)
