@@ -1,0 +1,31 @@
+.doc{
+	height:500px;;
+	width:100%;
+	overflow:auto;
+	background-color:#F0F0F0;
+	color:black;
+	
+	font-family: 'Kanit', sans-serif !important;
+	padding:10px;
+	border-radius: 15px;
+	box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+    }
+    .pop{
+	border-radius: 15px;
+    }
+    .Footer{
+	background-color: #354696;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	color: #FDFEFF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px!important;
+	
+	/* height: 150px; */
+	}
+.Footer>a{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px !important;
+	color: #FDFEFF!important;
+}

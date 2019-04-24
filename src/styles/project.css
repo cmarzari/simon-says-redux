@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+.project-list{
+	
+	margin-left: 20% !important;
+	
+	width: 80% !important;
+
+}
+
+.MuiListItem-gutters-146 {
+	margin-top:30px;
+	width: 80% !important;
+	height: 110px;
+	background-color:#ec723ec5;
+	border-radius: 10px;
+	box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+	font-family: 'Nunito', sans-serif !important;
+
+}
+.MuiTypography-h6-115{
+	font-family: 'Nunito', sans-serif !important;
+	text-align: center;
+}
+a{
+	text-decoration: none !important;
+	padding-left: 3%;
+	transition: all 1s ease-in-out;
+}
+a:hover{
+	text-decoration: none !important;
+	padding-left: 5%;
+
+	}
+
+.mobile{
+	
+	margin-bottom: -50% !important;
+}
+
+.developing{
+	background-color:#D3D3D3 !important;
+}
+
+.project{
+	height: 800px;
+}
